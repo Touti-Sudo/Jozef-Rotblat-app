@@ -63,7 +63,7 @@ class _ToutiGptPageState extends State<ToutiGptPage> {
           }),
     ];
 
-    const apiKey = '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';
+    const apiKey = 'Your API key';
     const apiUrl = 'https://openrouter.ai/api/v1/chat/completions';
 
     final response = await http.post(
@@ -218,3 +218,4 @@ class _TypingIndicatorState extends State<TypingIndicator>
     super.dispose();
   }
 }
+
